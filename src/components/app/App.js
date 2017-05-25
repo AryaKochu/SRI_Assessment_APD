@@ -48,8 +48,7 @@ class App extends Component {
 
     handleSubmit() {
         const { fields }  = this.state;
-        const showBtn = this.state.showSubmitBtn ? false : true;
-        this.setState({showSubmitBtn: showBtn});
+        this.setState({showSubmitBtn: !this.state.showSubmitBtn});
         console.log(JSON.stringify(fields));
     }
 
