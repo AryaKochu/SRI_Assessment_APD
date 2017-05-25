@@ -1,0 +1,12 @@
+.data-field-cell{
+    flex: 1 1 33%;
+}
+
+label{
+    opacity: 0.5;
+    color: red;
+}
+
+input:focus{
+    opacity: 0.5;
+}
