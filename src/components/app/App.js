@@ -43,7 +43,10 @@ class App extends Component {
     }
 
     renderReportTable(){
-        return <Report/> ;
+        return (
+            <Report
+            showBtn={this.state.showSubmitBtn}/>
+        );
     }
 
     handleSubmit() {
